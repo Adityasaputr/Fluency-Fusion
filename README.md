@@ -1,4 +1,4 @@
-# Fluency-Fusion
+# Fluency Fusion
 
 Welcome to Fluency Fusion! This repository hosts the website for Fluency Fusion, a language learning center specializing in German and English courses.
 
