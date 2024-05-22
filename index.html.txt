@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluency Fusion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fluency Fusion</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home">
+        <div class="hero">
+            <h2>Master German and English with Fluency Fusion</h2>
+            <p>Join us to elevate your language skills to new heights</p>
+            <a href="#courses" class="cta-button">Get Started</a>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Fluency Fusion is dedicated to helping you master German and English through innovative teaching methods and experienced instructors.</p>
+            <div class="team">
+                <div class="team-member">
+                    <img src="team1.jpg" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>Lead Instructor</p>
+                </div>
+                <div class="team-member">
+                    <img src="team2.jpg" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Language Expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course">
+                <h3>English Courses</h3>
+                <p>Our English courses are designed for all levels, from beginners to advanced learners. Improve your speaking, listening, reading, and writing skills.</p>
+                <a href="#" class="cta-button">Learn More</a>
+            </div>
+            <div class="course">
+                <h3>German Courses</h3>
+                <p>Our German courses cater to all proficiency levels, helping you to become fluent in both formal and conversational German.</p>
+                <a href="#" class="cta-button">Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pricing">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <div class="pricing-plan">
+                <h3>Basic</h3>
+                <p>For beginners</p>
+                <p>$100/month</p>
+                <a href="#" class="cta-button">Enroll Now</a>
+            </div>
+            <div class="pricing-plan">
+                <h3>Standard</h3>
+                <p>For intermediate learners</p>
+                <p>$200/month</p>
+                <a href="#" class="cta-button">Enroll Now</a>
+            </div>
+            <div class="pricing-plan">
+                <h3>Premium</h3>
+                <p>For advanced learners</p>
+                <p>$300/month</p>
+                <a href="#" class="cta-button">Enroll Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Address: 123 Language Street, City, Country</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Email: info@fluencyfusion.com</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fluency Fusion. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
